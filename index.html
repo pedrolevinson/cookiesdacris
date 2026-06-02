@@ -475,83 +475,77 @@
 
     /* ── PACKAGE LOGO ── */
     .hero-pkg-logo {
-      background: #3B1A09;
-      border-radius: 1.5rem;
-      border: 4px dashed #C47272;
-      padding: 0.7rem 1.4rem 0.55rem;
-      width: min(540px, 90vw);
+      background: #3D180A;
+      border-radius: 1.6rem;
+      border: 3.5px dashed #C97070;
+      padding: 0.65rem 1.5rem 0.55rem;
+      width: min(530px, 90vw);
       margin-bottom: 0.5rem;
     }
     .pkg-top {
       text-align: center;
       font-family: 'Lato', sans-serif;
       font-weight: 300;
-      font-size: 0.66rem;
-      letter-spacing: 0.3em;
-      color: #E8CBA8;
+      font-size: 0.65rem;
+      letter-spacing: 0.28em;
+      color: #E8C9A0;
       margin-bottom: 0.05rem;
+      font-style: italic;
     }
     .pkg-row {
       display: flex;
       align-items: flex-end;
       justify-content: center;
-      font-size: clamp(3.6rem, 13vw, 6.5rem);
+      font-size: clamp(3.5rem, 13vw, 6.2rem);
       line-height: 1;
-      padding-bottom: 0.04em;
-      gap: 0.02em;
+      gap: 0.01em;
     }
     .pkg-c, .pkg-kie {
       font-family: 'Lilita One', cursive;
       color: #EDD5B0;
       line-height: 1;
+      display: block;
     }
     .pkg-o {
-      width: 0.75em;
-      height: 0.75em;
+      width: 0.72em;
+      height: 0.72em;
       border-radius: 50%;
       background: #EDD5B0;
       position: relative;
       overflow: hidden;
       flex-shrink: 0;
-      margin-bottom: 0.03em;
+      margin-bottom: 0.06em;
     }
     .pkg-o::before {
       content: '';
       position: absolute;
-      top: -6%;
-      left: 12%;
-      width: 76%;
-      height: 52%;
-      background: #3B1A09;
+      top: -12%;
+      left: 9%;
+      width: 82%;
+      height: 50%;
+      background: #3D180A;
       border-radius: 50%;
     }
-    .pkg-chip {
-      position: absolute;
-      background: #5C2A12;
-      border-radius: 40%;
-    }
-    .pkg-chip.c1 { width:16%; height:11%; bottom:38%; left:20%; transform:rotate(-20deg); }
-    .pkg-chip.c2 { width:14%; height:10%; bottom:24%; left:54%; transform:rotate(15deg);  }
-    .pkg-chip.c3 { width:13%; height: 9%; bottom:13%; left:28%; transform:rotate(-10deg); }
-    .pkg-chip.c4 { width:12%; height: 9%; bottom:14%; left:62%; transform:rotate(20deg);  }
     .pkg-foot {
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
-      margin-top: 0.2rem;
+      margin-top: 0.15rem;
     }
     .pkg-sub {
       font-family: 'Lato', sans-serif;
       font-weight: 300;
-      font-size: 0.62rem;
-      letter-spacing: 0.22em;
-      color: #E8CBA8;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      color: #E8C9A0;
+      font-style: italic;
     }
     .pkg-dacris {
       font-family: 'Playfair Display', serif;
       font-style: italic;
-      font-size: 1.2rem;
-      color: #C45878;
+      font-size: 1.3rem;
+      color: #C85878;
+      line-height: 1;
     }
   </style>
 </head>
@@ -563,18 +557,8 @@
       <p class="pkg-top">bolinhas de massa de</p>
       <div class="pkg-row">
         <span class="pkg-c">C</span>
-        <div class="pkg-o">
-          <span class="pkg-chip c1"></span>
-          <span class="pkg-chip c2"></span>
-          <span class="pkg-chip c3"></span>
-          <span class="pkg-chip c4"></span>
-        </div>
-        <div class="pkg-o">
-          <span class="pkg-chip c1"></span>
-          <span class="pkg-chip c2"></span>
-          <span class="pkg-chip c3"></span>
-          <span class="pkg-chip c4"></span>
-        </div>
+        <div class="pkg-o"></div>
+        <div class="pkg-o"></div>
         <span class="pkg-kie">KIE</span>
       </div>
       <div class="pkg-foot">
